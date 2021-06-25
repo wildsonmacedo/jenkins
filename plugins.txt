@@ -1,3 +1,4 @@
+generic-webhook-trigger
 sshd:3.0.3
 cloudbees-folder:6.15
 trilead-api:1.0.13
