@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   jenkins:
-    image: .
+    build: .
     privileged: true
     user: root
     ports:
