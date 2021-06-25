@@ -5,4 +5,4 @@ echo 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable' >
 apt-get update ; apt-get install -y --no-install-recommends docker-ce docker-compose
 touch /root/jenkins.info
 mkdir -p /var/docker/jenkins_data
-docker-composer up -d
+docker-compose up -d
